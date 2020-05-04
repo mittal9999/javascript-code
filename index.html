@@ -6,18 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>-->
-   <!-- <link rel="stylesheet" type="text/css" href="link_tag_style.css" />-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
    
   </head>
 <body>
  <!--header-->  
  <!--<div  style="font-size:20px; border: 1px solid #999999; color: #F9864D;">-->
-<h1> <em>javascript</em></h1>
-<h2>javascript</h2>
-<h3> javascript2</h3>
-<h4> javascript3</h4>
- <h5> javascript4</h5>
-<h6>javascript5</h6>
+<h1 id="a1"> <em>javascript</em></h1>
+<h2 id="a2">javascript</h2>
+<h3 id="abc"> javascript2</h3>
+<h4 id="a3"> javascript3</h4>
+ <h5 id="a4"> javascript4</h5>
+<h6 id="a5">javascript5</h6>
 <!--uppercase-->
 <ul>
     <li>first item</li>
@@ -47,9 +47,7 @@
  <br></br>
  <h3>example of img</h3>
  <!--area tag is used for area in an image map-->
- <img src="./image/a1.png
-  
- " height="50"width="70"/>
+ <img src="./image/a1.png">
 <!--article tag used for write article-->
 <!--b tag used for specific text weight bold-->
 <h3>example of article</h3>
@@ -58,9 +56,18 @@
 <h3>example of aside</h3>
 <!--aside tag used for define to write web contain on aside place -->
 <aside style="float:left;">
-  <img src="./image/a1.png" height="50" width="90" />
+  <img src="./image/a1.png">
   </aside>
-  <br></br>
+  </br>
+</br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
   <h3>example of audio</h3>
  <!--audio tag is used for adding audio files--> 
  <!--<source> tag is used to specifies multiple media resources for the <audio>, <video>, or <picture> tag.-->
@@ -82,8 +89,7 @@
   example.This is long quotation example.This is a long quotation example. <br />
   This is a long quotation example. </blockquote>
   <!--body tag is used for  define main section part in html documents-->
-  <body style="background:#9ed33b; color:rgb(1, 10, 7)"></body>
-  <br></br>
+  </br>
   <h3>example of button</h3>
   <!--button tag is used for specific push/press button-->
   <button type="button"><b>Click Here</b></button>
@@ -99,7 +105,7 @@ var ctx=canvas.getContext('2d');
   ctx.fillRect(25,0,120,50);-->
   <!--caption tag used for create table-->
   <h3>example of table including(caption,tr,th,td)</h3>
-  <table  width="100">
+  <table>
    <!--</table> <colgroup span="2"> 
       <col width="80"/>
       <col width="120"/>
@@ -164,23 +170,23 @@ var ctx=canvas.getContext('2d');
     </pre>
   </code>
   <br/>
-  <h3>example of menu</h3>
-  <menu>
+  <!-- <h3>example of menu</h3> -->
+  <!-- <menu>
     <command type="checklist" label="Check List">Check List</command>
-  </menu>
+  </menu> -->
   <br/>
   <h3>example of datagrid</h3>
   <datagrid>
-    <ol style="list-style-type:decimal;">
+    <ol>
     <li>(Row.1)</li>
-    <ol style ="list-style-type:lower-alpha;">
+    <ol >
          <li>Row 1,1</li>
          <li>R ow 1,2</li>
     </ol>
    
     
       <li>(Row.2)</li>
-      <ol style ="list-style-type:lower-alpha;">
+      <ol>
          <li>Row 2,1</li>
          <li>Row 2,2</li>
       </ol>
@@ -237,7 +243,7 @@ var ctx=canvas.getContext('2d');
 <br/>
 <h3>example of div</h3>
 <!--<div> tag  define  section or division-->
-<div style="font-size:20px; border: 1px solid #0c0b0b; color: rgb(103, 77, 249);">
+<div>
   <p>This is a Paragraph text.</p>
   <h2>HTML TAGS</h2>
 </div>
@@ -261,7 +267,7 @@ var ctx=canvas.getContext('2d');
 <br/>
 <h3>example of figure including(figcaption)</h3>
 <figure>
-  <img src="./image/a2.png" width="165" height="110" alt="Natural" />
+  <img src="./image/a2.png">
   <figcaption>Figure 1. weather Image</figcaption>
 </figure>
 <p>There's no such thing as good weather, or bad weather. There's just weather and your attitude towards it. Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather. "Inner Journey".</p>
@@ -272,7 +278,7 @@ var ctx=canvas.getContext('2d');
   <h3>example of footer including(article,img,h1 to h6</h3>
 <article>
   <h1><u>Ramayana</u></h1>
-  <img src="./image/ramayan.png" width="120" height="80" alt="Natural"/>
+  <img src="./image/ramayan.png">
      <p><i>Ramayana is one of the two major Sanskrit epics of ancient India, the other being the Mahābhārata. Along with the Mahābhārata, it forms the Hindu Itihasa. Ramayana. रामायणम्. Indischer Maler von 1780 001.jpg · Rama with his wife Sita and brother Lakshmana during exile in forest, manuscript, ca. 1780. Information ... In its extant form, Valmiki's Ramayana is an epic poem of some 24, ...</i></p>
 </article>
 <footer>
@@ -281,7 +287,7 @@ var ctx=canvas.getContext('2d');
 <br/>
 <h3>example of form</h3>
 <!--<form>tag define control having submit form -->
-<form action="form_tag_get.php"method="post">
+<form method="post">
   <p>Username:<input type="text"name="Username"/></p>
   <p>Password:<input type="password"name="Password"/></p>
   <input type="submit"value="login"/>
@@ -417,15 +423,9 @@ keytype="RSA">-->
   <!--<span> tag is used to grouping and applying styles to inline elements-->
   <!--<td>-->
     <h3>example of span</h3> 
-  <p>example represent<span style ="color: crimson;">span element</span></p>
+  <p>example represent<span >span element</span></p>
 </br>
-<!--<style> tag is used to add CSS style to an HTML document. -->
-<style type="text/css">
-  h3 {
-    font-size: 15px;
-    color: red;
-  }
-</style>
+
 <!-- <sub> tag rendered with a lowered baseline.-->
   <h3>example of sub</h3> 
 <p>h<sub>2</sub>+s0<sub>4</sub>h<sub>2</sub>so<sub></sub></p>
@@ -439,26 +439,7 @@ keytype="RSA">-->
 <!--<th>Used for creates header of a group of cell in HTML table.-->
  <!--<thead>Used to adding a header to a table that containing header information of the table.-->   
   <h3>example of tbody</h3>
- <style type="text/css">
-  table{ 
-    border:rgb(1, 10, 7);
-    border-collapse:collapse;
-  }
-  th, td{
-    padding:5px;
-    border:rgb(1, 10, 7);
-  }
-  thead{
-    background-color: darkslategrey;
-  }
-  tbody{
-    color: firebrick;
-  }
-tfoot{
-  background-color: green;
-  text-align: center;
-}
- </style>
+ 
 <table>
   <thead>
     <tr>

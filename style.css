@@ -1,0 +1,131 @@
+h3 {
+    font-size: 20px;
+    color: rgb(60, 57, 90);
+    }
+  span{
+    color: chartreuse;
+  }
+  table{
+    color: rgb(14, 12, 12);
+    background-color: rgb(186, 241, 245);
+    text-align: center;
+    border-style: double;
+  }
+  tbody{
+    column-width: initial;
+    color: orangered;
+    text-align: center;
+    border-style: groove;
+  }
+  thead{
+    color: mediumblue;
+  }
+  tfoot{
+    color: chartreuse;
+  }
+body{
+  background-color: violet;
+  background-blend-mode: soft-light;
+
+}
+button:hover{
+  color: black;
+  border-style: groove;
+  background: brown;
+  size: 0vmax;
+}
+tr{
+  color: black;
+}
+th{
+  color: crimson;
+}
+td{
+  color: rgb(73, 10, 245);
+}
+form{
+  background-color: rgb(176, 250, 126);
+  color: rgb(9, 9, 32);
+
+}
+input:hover{
+  font-style: initial;
+  color: white;
+  background-color: black;
+}
+output{
+  color: darkolivegreen;
+}
+img{
+  width:200px;
+  height:200px;
+  border-style: solid;
+  border-width: thick;
+
+}
+div{
+  color: blue;
+  border-style: dotted;
+  border-color: blueviolet;
+  background-color: rgb(100, 237, 168);
+}
+samp{
+  color: rgb(59, 1, 1);
+}
+section{
+  border-style: ridge;
+  border-color: black;
+  color: darkgoldenrod;
+
+}
+sub{
+  color: red;
+
+}
+sup{
+  color: blue;
+}
+textarea{
+  color: darkred;
+  background-color:darkkhaki;
+  border-style: double;
+}
+code{
+  color: rgb(59, 1, 1);
+}
+datalist{
+  color: blueviolet;
+}
+option{
+  background-color: crimson;
+}
+#abc{
+  color: rgb(25, 3, 150);
+  border-style: solid;
+  border-width: 5px;
+}
+#a1{
+  border-style: double;
+  border-color: rgb(2, 36, 80);
+}
+#a2{
+  border-style: outset;
+  border-color: rgb(2, 71, 139);
+}
+#a3{
+  border-style: groove;
+  border-color: rgb(8, 8, 201);
+}
+#a4{
+  border-style: inset;
+  border-color: rgb(68, 68, 228);
+}
+#a5{
+  border-style: ridge;
+  border-color: rgb(136, 136, 248);
+}
+cite{
+  border-bottom: rgb(13, 19, 15);
+}
+
+
