@@ -9,13 +9,15 @@ h3 {
     color: rgb(14, 12, 12);
     background-color: rgb(186, 241, 245);
     text-align: center;
-    border-style: double;
+    border-style: inset;
+    border-radius: 5px;
   }
   tbody{
     column-width: initial;
     color: orangered;
     text-align: center;
     border-style: groove;
+    
   }
   thead{
     color: mediumblue;
@@ -24,15 +26,21 @@ h3 {
     color: chartreuse;
   }
 body{
-  background-color: violet;
-  background-blend-mode: soft-light;
-
+ /* background-color: rgb(238, 133, 189); */
+ /* background-image:url("./image/download1.png"); */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* background-image: linear-gradient(to left bottom, #d16b86, #d76d96, #da70a7, #db75ba, #d87bcd, #e77bc6, #f47dbf, #ff7fb7, #ff8c8d, #ffac61, #ffd446, #c5fb5f); */
+ /* background-image: linear-gradient(to bottom, #f299b0, #ec82b2, #df6ebb, #c95ec8, #a655d9, #8272ef, #5488fb, #009bff, #00c1ff, #00dee1, #00f29f, #c5fb5f); */
+ background-image: linear-gradient(to right, #f299b0, #ec82b2, #df6ebb, #c95ec8, #a655d9, #8272ef, #5488fb, #009bff, #00c1ff, #00dee1, #00f29f, #c5fb5f);
 }
 button:hover{
   color: black;
-  border-style: groove;
+  border-style: outset;
   background: brown;
   size: 0vmax;
+  border-radius: 6px;
 }
 tr{
   color: black;
@@ -42,11 +50,6 @@ th{
 }
 td{
   color: rgb(73, 10, 245);
-}
-form{
-  background-color: rgb(176, 250, 126);
-  color: rgb(9, 9, 32);
-
 }
 input:hover{
   font-style: initial;
@@ -61,13 +64,19 @@ img{
   height:200px;
   border-style: solid;
   border-width: thick;
+  border-radius: 50px;
 
 }
 div{
   color: blue;
-  border-style: dotted;
+  border-style: outset;
   border-color: blueviolet;
-  background-color: rgb(100, 237, 168);
+ 
+  
+
+  
+  
+  
 }
 samp{
   color: rgb(59, 1, 1);
@@ -89,6 +98,10 @@ textarea{
   color: darkred;
   background-color:darkkhaki;
   border-style: double;
+  height: 70px;
+  max-height: 150px;
+  min-height: 50px;
+  
 }
 code{
   color: rgb(59, 1, 1);
@@ -103,29 +116,102 @@ option{
   color: rgb(25, 3, 150);
   border-style: solid;
   border-width: 5px;
+  border-radius: 9px;
 }
 #a1{
   border-style: double;
   border-color: rgb(2, 36, 80);
+  border-radius: 8px;
 }
 #a2{
   border-style: outset;
   border-color: rgb(2, 71, 139);
+  border-radius: 7px;
 }
 #a3{
   border-style: groove;
   border-color: rgb(8, 8, 201);
+  border-radius: 4px;
 }
 #a4{
   border-style: inset;
   border-color: rgb(68, 68, 228);
+  border-radius: 5px;
 }
 #a5{
   border-style: ridge;
   border-color: rgb(136, 136, 248);
+  border-radius: 6px;
 }
-cite{
-  border-bottom: rgb(13, 19, 15);
-}
+address{
+  color: chocolate;
 
+}
+a:visited{
+  color: blueviolet;
+ 
+}
+a:hover{
+  color: crimson;
+  background-color: rgb(204, 243, 31);
+}
+ul{
+  list-style-type: square;
+
+}
+li{
+  display: inline;
+}
+li.first{
+  visibility: visible;
+}
+li.second{
+  visibility: hidden;
+}
+p.p1{
+  padding-left: 30px;
+  outline-style: ridge;
+  outline-color: chocolate;
+  float: left;
+}
+p.p2{
+  padding-left: 20%;
+  outline-style:double;
+  outline-color: chocolate;
+  clear: both;
+ 
+}
+p.p3{
+  padding-left: auto;
+  outline-style: dashed;
+  outline-color: chocolate;
+ 
+}
+div.d1{
+  background-color:orange;
+  width:130px;
+  height:150px;
+  top:15px;
+  left:1px; 
+  position:relative;
+  z-index:1;
+}
+div.d2{
+  background-color:#FF3333;
+    width:130px;
+    height:150px;
+    position:relative;
+    top:-10px;
+    left:45px;
+    z-index:2;
+}
+div.d3{
+  background-color:#CCFF66;
+    width:230px;
+    height:30px;
+    position: absolute;
+    top:150px;
+    left:145px;
+    z-index:3;
+}
 
